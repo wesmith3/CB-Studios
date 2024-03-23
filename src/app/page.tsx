@@ -1,10 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client"
+import NavBar from './navbar'
 
-export default function Home() {
+function Home() {
   return (
-    <main className={styles.main}>
-      
-    </main>
-  );
+    <div>
+      <NavBar />
+    </div>
+  )
 }
+
+export default Home
