@@ -28,3 +28,34 @@
     height: 150vh;
     z-index: 0;
 }
+.heading {
+    color: black !important;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Noir";
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: -1px 0px 0.05px white, 2px 0px 0.05px white;
+    font-size: 15.5rem;
+    letter-spacing: .5rem;
+    color: white;
+    background-color: transparent;
+    z-index: 2;
+}
+.subhead {
+    color: #FFFFF0;
+    position: absolute;
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Thin";
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+    color: white;
+    background-color: transparent;
+    z-index: 2;
+}
