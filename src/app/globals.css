@@ -77,19 +77,19 @@
   background-color: transparent;
   z-index: 2;
   -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: radial-gradient(circle at bottom right, whitesmoke 100%, transparent 100%);
-  background-size: 0% 0%;
-  background-position: bottom right;
+  -ms-user-select: none; 
+   user-select: none; 
+  
+  background-image: linear-gradient(to left, whitesmoke, whitesmoke);
+  background-size: 0 100%;
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
-  transition: background-size 1.5s ease;
+  transition: background-size 3.75s ease;
 }
 
 .heading:hover {
-  background-size: 200% 85%;
+  background-size: 100% 200%;
 }
 .subhead {
     color: #FFFFF0;
