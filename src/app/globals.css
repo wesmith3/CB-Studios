@@ -76,21 +76,20 @@
   letter-spacing: .5rem;
   background-color: transparent;
   z-index: 2;
-  -webkit-user-select: none;  /* Safari */
-  -ms-user-select: none;      /* IE 10 and IE 11 */
-   user-select: none; 
-  
-   background-image: radial-gradient(circle at bottom right, whitesmoke 0%, transparent 0%);
-  background-size: 300% 300%;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: radial-gradient(circle at bottom right, whitesmoke 100%, transparent 100%);
+  background-size: 0% 0%;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
-  transition: all 1.5s ease;
+  transition: background-size 1.5s ease;
 }
 
 .heading:hover {
-  background-size: 100% 100%;
+  background-size: 200% 85%;
 }
 .subhead {
     color: #FFFFF0;
