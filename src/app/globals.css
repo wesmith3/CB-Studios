@@ -106,3 +106,8 @@
     background-color: transparent;
     z-index: 2;
 }
+
+.about {
+  background-color: black;
+  color: white !important;
+}
