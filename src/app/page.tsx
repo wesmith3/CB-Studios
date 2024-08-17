@@ -1,4 +1,5 @@
 "use client"
+import About from './about'
 import NavBar from './navbar'
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <h4 className="subhead">Film By Cloud Based Studios</h4>
       </div>
     </div>
+      <About/>
     </>
   )
 }
