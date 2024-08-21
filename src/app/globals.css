@@ -64,7 +64,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: #8B4513;
   font-size: 12.5rem;
   letter-spacing: 0.5rem;
   background-color: transparent;
@@ -87,8 +87,8 @@ body {
   font-family: "Noir";
   text-align: center;
   font-weight: lighter;
-  -webkit-text-stroke: 0.35px #b0c4de;
-  text-stroke: 5px #b0c4de;
+  -webkit-text-stroke: 0.5px #8B4513;
+  text-stroke: 5px black;
   font-size: 20rem;
   letter-spacing: 2.5rem;
   color: transparent;
@@ -102,7 +102,7 @@ body {
   background-size: 100% 200%;
 }
 .subhead {
-  color: #fffff0;
+  /* color: whitesmoke; */
   position: absolute;
   top: 35%;
   left: 50%;
@@ -112,7 +112,6 @@ body {
   font-weight: normal;
   font-size: 3.5rem;
   letter-spacing: .35rem;
-  color: white;
   background-color: transparent;
   z-index: 2;
 }
