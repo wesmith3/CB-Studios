@@ -79,9 +79,9 @@ body {
   font-family: "Noir";
   text-align: center;
   font-weight: lighter;
-  -webkit-text-stroke: 0.5px #8B4513;
+  -webkit-text-stroke: 0.25px whitesmoke;
   text-stroke: 5px black;
-  font-size: 20rem;
+  font-size: 15.5rem;
   letter-spacing: 2.5rem;
   color: transparent;
   z-index: 2;
@@ -102,8 +102,8 @@ body {
   font-family: "Thin";
   text-align: center;
   font-weight: normal;
-  font-size: 3.5rem;
-  letter-spacing: .35rem;
+  font-size: 2.5rem;
+  letter-spacing: .5rem;
   background-color: transparent;
   z-index: 2;
 }
@@ -111,4 +111,8 @@ body {
 .about {
   background-color: black;
   color: white !important;
+}
+
+.award {
+  z-index: 1;
 }
