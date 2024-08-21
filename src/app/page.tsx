@@ -9,8 +9,8 @@ function Home() {
       <NavBar />
       <div>
         <h4 className="subhead">A Film By Cloud Based Studios</h4>
-        <h1 className="heading">SIRI MIRI</h1>
-        <h1 className="bg_heading">MOVING</h1>
+        <h1 className="heading">DESPERADO</h1>
+        <h1 className="bg_heading">MASTERPIECE</h1>
       </div>
     </div>
       <About/>
