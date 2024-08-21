@@ -8,8 +8,9 @@ function Home() {
     <div className='home'>
       <NavBar />
       <div>
-        <h1 className="heading">Cloud Based Studios</h1>
-        <h4 className="subhead">Film By Cloud Based Studios</h4>
+        <h4 className="subhead">A Film By Cloud Based Studios</h4>
+        <h1 className="heading">DESPERADO</h1>
+        <h1 className="bg_heading">MASTERPIECE</h1>
       </div>
     </div>
       <About/>
