@@ -25,8 +25,7 @@ body {
 }
 
 .navbar {
-  background-color: transparent !important;
-  color: white !important;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,13 +36,13 @@ body {
 }
 
 .navbar .menu-btn {
-  background-color: transparent !important;
-  color: white !important;
-  padding: 10px !important;
-  font-family: Pacifico cursive !important;
-  font-size: small !important;
-  text-decoration: none !important;
-  position: relative !important;
+  background-color: transparent;
+  color: #8B4513 ;
+  padding: 10px;
+  font-family: Pacifico cursive;
+  font-size: small ;
+  text-decoration: none;
+  position: relative;
 }
 .home {
   position: relative;
