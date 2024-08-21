@@ -3,7 +3,7 @@ import About from "./about";
 import NavBar from "./navbar";
 import Plot from "./plot";
 import Image from 'next/image';
-import Award from '../../public/png-transparent-sheffield-doc-fest-guadalajara-international-film-festival-laurel-wreath-award-leaf-branch-monochrome-thumbnail.png'
+import Award from '../../public/ff_award.webp'
 function Home() {
   return (
     <>

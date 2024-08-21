@@ -114,5 +114,7 @@ body {
 }
 
 .award {
+  width: 15rem;
+  height: 7.5rem;
   z-index: 1;
 }
