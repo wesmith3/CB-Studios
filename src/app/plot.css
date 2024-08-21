@@ -1,7 +1,14 @@
-.synopsis {
-
+.plot {
+  background-color: black;
+  color: white !important;
 }
 
-.plot {
-    
+.synopsis {
+    font-family: "Noir";
+    font-size: 6.5rem;
+    letter-spacing: 15px;
+    font-weight: 100;
+}
+
+.syn_description {
 }
