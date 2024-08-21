@@ -1,11 +1,13 @@
-import React from 'react'
+import 'plot.css'
 
-function plot() {
+function Plot() {
   return (
     <div>
-      
+      <h1 className='synopsis'>Synopsis</h1>
+      <p className='plot'>Lorem ipsum dolor sir amet, consecte tuer adipiscing elit. Aenean cou ado ligula eg dolor. Aenean massa. Cum sociis Theme natoque penar bus et magnis dis parturient montes, nascet ridiculus mus. Phaselus viverra mulla ut metus varius looreet. Quisque rutrum enean imperdict etiam ultricies nisi vel augue, Curabitur ullamcorper ultricies.
+      </p>
     </div>
   )
 }
 
-export default plot
+export default Plot
