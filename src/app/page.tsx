@@ -13,6 +13,10 @@ function Home() {
           <h4 className="subhead">Film By Wesley Smith</h4>
           <h1 className="heading">DESPERADO</h1>
           <h1 className="bg_heading">MASTERPIECE</h1>
+        </div>
+        <div className="award_row">
+          <Image  className='award' src= {Award} alt="award"/>
+          <Image  className='award' src= {Award} alt="award"/>
           <Image  className='award' src= {Award} alt="award"/>
         </div>
       </div>
