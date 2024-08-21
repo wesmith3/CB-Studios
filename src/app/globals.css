@@ -64,20 +64,13 @@ body {
   text-align: center;
   font-weight: bold;
   color: #8B4513;
-  font-size: 12.5rem;
+  font-size: 13.5rem;
   letter-spacing: 0.5rem;
   background-color: transparent;
   z-index: 2;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
-  /* background-image: linear-gradient(to left, whitesmoke, whitesmoke);
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  transition: background-size 2.75s ease; */
 }
 
 .bg_heading {
