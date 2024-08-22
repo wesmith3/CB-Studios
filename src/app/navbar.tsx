@@ -7,22 +7,22 @@ function NavBar() {
   return (
     <div className="navbar">
         <Button className='menu-btn'>
-          Home
+          HOME
         </Button>
         <Button className='menu-btn'>
-          About Us
+          ABOUT US
         </Button>
         <Button className='menu-btn'>
-          Services
+          SERVICES
         </Button>
         <Button className='menu-btn'>
-          Portfolio
+          PORTFOLIO
         </Button>
         <Button className='menu-btn'>
-          Projects
+          PROJECTS
         </Button>
         <Button className='menu-btn'>
-          Contact
+          CONTACT
         </Button>
     </div>
   );
