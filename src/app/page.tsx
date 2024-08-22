@@ -1,4 +1,5 @@
 "use client";
+import './page.css'
 import About from "./about";
 import NavBar from "./navbar";
 import Plot from "./plot";
