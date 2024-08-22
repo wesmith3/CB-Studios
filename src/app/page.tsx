@@ -5,6 +5,7 @@ import NavBar from "./navbar";
 import Plot from "./plot";
 import Image from 'next/image';
 import Award from '../../public/ff_award.webp'
+import Footer from './footer';
 function Home() {
   return (
     <>
@@ -23,6 +24,7 @@ function Home() {
       </div>
       <Plot />
       <About />
+      <Footer />
     </>
   );
 }
