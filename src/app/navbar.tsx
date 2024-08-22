@@ -1,4 +1,5 @@
 "use client"
+import './navbar.css'
 import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react'
 

@@ -24,26 +24,6 @@ body {
   background-color: black;
 }
 
-.navbar {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3.5rem;
-  position: relative;
-  top: 2rem;
-  z-index: 1;
-}
-
-.navbar .menu-btn {
-  background-color: transparent;
-  color: #8B4513 ;
-  padding: 10px;
-  font-family: Pacifico cursive;
-  font-size: medium ;
-  text-decoration: none;
-  position: relative;
-}
 .home {
   position: relative;
   background-image: url("../../public/new_new_desp.jpeg");
