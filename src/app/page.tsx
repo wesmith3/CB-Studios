@@ -1,5 +1,5 @@
 "use client";
-import './page.css'
+import './styling/page.css'
 import About from "./about";
 import NavBar from "./navbar";
 import Plot from "./plot";

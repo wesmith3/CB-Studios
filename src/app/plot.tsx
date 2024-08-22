@@ -1,4 +1,4 @@
-import "./plot.css";
+import "./styling/plot.css";
 
 function Plot() {
   return (

@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Noir";
-  src: url("../../public/fonts/FilmNoir-6YY8v.ttf") format("truetype");
+  src: url("../../../public/fonts/FilmNoir-6YY8v.ttf") format("truetype");
 }
 @font-face {
   font-family: "Film";
-  src: url("../../public/fonts/Filmgraph-nRWyY.ttf") format("truetype");
+  src: url("../../../public/fonts/Filmgraph-nRWyY.ttf") format("truetype");
 }
 @font-face {
   font-family: "Cinema";
-  src: url("../../public/fonts/CinemaGroovyRegular-d9W1g.otf")
+  src: url("../../../public/fonts/CinemaGroovyRegular-d9W1g.otf")
     format("opentype");
 }
 @font-face {
   font-family: "Thin";
-  src: url("../../public/fonts/PromenadedelacroisetteReg-BWLLG.otf")
+  src: url("../../../public/fonts/PromenadedelacroisetteReg-BWLLG.otf")
     format("opentype");
 }
 
