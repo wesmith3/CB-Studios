@@ -1,0 +1,22 @@
+.plot {
+  background-color: black;
+  color: white !important;
+  width: 90%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.synopsis {
+    font-family: "Noir";
+    font-size: 2.5rem;
+    letter-spacing: 15px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.syn_description {
+    font-size: medium;
+}
