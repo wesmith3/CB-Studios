@@ -1,9 +1,14 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    color: white;
+    font-family: 'Film';
+    font-size: x-large;
+    letter-spacing: .25rem;
   }
   
   .column {
     flex: 1;
     padding: 1rem;
+    font-family: 'Film';
   }

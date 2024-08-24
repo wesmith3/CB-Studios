@@ -16,6 +16,11 @@
   src: url("../../../public/fonts/PromenadedelacroisetteReg-BWLLG.otf")
     format("opentype");
 }
+@font-face {
+  font-family: "Film";
+  src: url("../../../public/fonts/FilmMovies-nRmr0.otf")
+    format("opentype");
+}
 
 body {
   height: 100%;
