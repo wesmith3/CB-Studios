@@ -6,22 +6,20 @@ const Footer: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.column}>
         <h3>Cloud Based Studios</h3>
-        <p>Your company description here.</p>
-      </div>
-      <div className={styles.column}>
-        <h3>About</h3>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/products">Latest Videos</a></li>
+          <li><a href="/services">Studio Tour</a></li>
+          <li><a href="/contact">Press & News</a></li>
         </ul>
       </div>
       <div className={styles.column}>
+        <h3>About</h3>
+       <p>Lorem ipsum dolor sit amet. Turel upn gravida nibh vel velit auctor aliquet aen sollic conseut ipsutis.</p>
+      </div>
+      <div className={styles.column}>
         <h3>News & Film Updates</h3>
-        <p>123 Main St, City, Country</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: info@example.com</p>
+        <p>Lorem Ipsner gravida nibh velml auctsi aliquet. Aene sollic conseut.</p>
       </div>
       <div className={styles.column}>
         <h3>Follow On Instagram</h3>
