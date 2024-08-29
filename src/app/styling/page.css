@@ -84,7 +84,7 @@
   margin-left: 2.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .heading {
     font-size: 11rem;
     top: 40%;
@@ -110,16 +110,18 @@
 @media (min-width: 1281px) {
   .heading {
     font-size: 11rem;
+    top: 45%;
   }
   .bg_heading {
     transform: translate(0%, 50%);
     font-size: 12.5rem;
-    letter-spacing: 3.5rem;
+    letter-spacing: 2.5rem;
     -webkit-text-stroke: 0.35px whitesmoke;
     text-stroke: 5px black;
   }
   .subhead {
     font-size: 2.5rem;
+    top: 35%;
   }
   .award_row {
     margin-top: 24.5%;
