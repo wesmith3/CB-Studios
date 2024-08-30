@@ -10,13 +10,12 @@ import Typography from '@mui/material/Typography';
 import FacebookIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
-// import SitemarkIcon from './SitemarkIcon';
 
 function Copyright() {
   return (
-    <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
+    <Typography variant="body2" sx={{ color: 'text', mt: 1 }}>
       {'Copyright © '}
-      <Link color="text.secondary" href="https://mui.com/">
+      <Link color="text.primary" href="https://mui.com/">
         Sitemark
       </Link>
       &nbsp;
@@ -29,6 +28,7 @@ export default function Footer() {
   return (
     <Container
       sx={{
+        color: '#FFFFFF',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -39,6 +39,7 @@ export default function Footer() {
     >
       <Box
         sx={{
+          color: '#FFFFFF',
           display: 'flex',
           flexDirection: { xs: 'column', sm: 'row' },
           width: '100%',
@@ -47,18 +48,24 @@ export default function Footer() {
       >
         <Box
           sx={{
+            color: '#FFFFFF',
             display: 'flex',
             flexDirection: 'column',
             gap: 4,
             minWidth: { xs: '100%', sm: '60%' },
           }}
         >
-          <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
+          <Box 
+            sx={{
+              color: '#FFFFFF',
+              width: { xs: '100%', sm: '60%' }
+              }}
+            >
             {/* <SitemarkIcon /> */}
             <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
               Join the newsletter
             </Typography>
-            <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
+            <Typography variant="body2" sx={{ color: '#FFFFFF', mb: 2 }}>
               Subscribe for weekly updates. No spams ever!
             </Typography>
             <InputLabel htmlFor="email-newsletter">Email</InputLabel>
@@ -92,6 +99,7 @@ export default function Footer() {
         </Box>
         <Box
           sx={{
+            color: '#FFFFFF',
             display: { xs: 'none', sm: 'flex' },
             flexDirection: 'column',
             gap: 1,
@@ -100,24 +108,25 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Product
           </Typography>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Features
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Testimonials
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Highlights
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Pricing
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             FAQs
           </Link>
         </Box>
         <Box
           sx={{
+            color: '#FFFFFF',
             display: { xs: 'none', sm: 'flex' },
             flexDirection: 'column',
             gap: 1,
@@ -126,18 +135,19 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Company
           </Typography>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             About us
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Careers
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Press
           </Link>
         </Box>
         <Box
           sx={{
+            color: '#FFFFFF',
             display: { xs: 'none', sm: 'flex' },
             flexDirection: 'column',
             gap: 1,
@@ -146,19 +156,20 @@ export default function Footer() {
           <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
             Legal
           </Typography>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Terms
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Privacy
           </Link>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Contact
           </Link>
         </Box>
       </Box>
       <Box
         sx={{
+          color: '#FFFFFF',
           display: 'flex',
           justifyContent: 'space-between',
           pt: { xs: 4, sm: 8 },
@@ -168,13 +179,13 @@ export default function Footer() {
         }}
       >
         <div>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Privacy Policy
           </Link>
           <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography>
-          <Link color="text.secondary" variant="body2" href="#">
+          <Link color='#FFFFFF' variant="body2" href="#">
             Terms of Service
           </Link>
           <Copyright />
@@ -183,7 +194,7 @@ export default function Footer() {
           direction="row"
           spacing={1}
           useFlexGap
-          sx={{ justifyContent: 'left', color: 'text.secondary' }}
+          sx={{ justifyContent: 'left', color: '#FFFFFF' }}
         >
           <IconButton
             color="inherit"
