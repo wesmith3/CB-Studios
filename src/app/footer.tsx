@@ -28,10 +28,10 @@ export default function Footer() {
   return (
     <Container
       sx={{
-        color: '#FFFFFF',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        width: '100%',
         gap: { xs: 4, sm: 8 },
         py: { xs: 8, sm: 10 },
         textAlign: { sm: 'center', md: 'left' },
@@ -68,7 +68,7 @@ export default function Footer() {
             <Typography variant="body2" sx={{ color: '#FFFFFF', mb: 2 }}>
               Subscribe for weekly updates. No spams ever!
             </Typography>
-            <InputLabel htmlFor="email-newsletter">Email</InputLabel>
+            <InputLabel sx={{ color: '#FFFFFF', mb: 2 }} htmlFor="email-newsletter">Email</InputLabel>
             <Stack direction="row" spacing={1} useFlexGap>
               <TextField
                 id="email-newsletter"
@@ -84,7 +84,7 @@ export default function Footer() {
                     'aria-label': 'Enter your email address',
                   },
                 }}
-                sx={{ width: '250px' }}
+                sx={{ color: '#FFFFFF', width: '250px' }}
               />
               <Button
                 variant="contained"
